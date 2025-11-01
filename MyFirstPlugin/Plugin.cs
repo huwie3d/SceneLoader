@@ -14,7 +14,7 @@ using Il2CppInterop.Runtime.Injection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace MyFirstPlugin;
+namespace SceneLoader;
 
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 public class Plugin : BasePlugin
@@ -378,6 +378,35 @@ public class Plugin : BasePlugin
             }
 
             Log.LogInfo($"Attempting to load scene: {sceneName} (path: {targetScenePath})");
+
+            // Load all assets from the bundle
+            try
+            {
+                Log.LogInfo("Loading all assets from bundle...");
+                MethodInfo loadAllAssetsMethod = assetBundleType.GetMethod("LoadAllAssets", new Type[0]);
+                if (loadAllAssetsMethod != null)
+                {
+                    object allAssets = loadAllAssetsMethod.Invoke(bundleObj, null);
+                    if (allAssets != null)
+                    {
+                        Type assetsArrayType = allAssets.GetType();
+                        var lengthProperty = assetsArrayType.GetProperty("Length");
+                        if (lengthProperty != null)
+                        {
+                            int assetCount = (int)lengthProperty.GetValue(allAssets);
+                            Log.LogInfo($"Loaded {assetCount} assets from bundle");
+                        }
+                        else
+                        {
+                            Log.LogInfo("Loaded all assets from bundle");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.LogWarning($"Failed to preload assets: {ex.Message}");
+            }
 
             // Try loading by scene name first (Unity can find it in loaded bundles)
             try

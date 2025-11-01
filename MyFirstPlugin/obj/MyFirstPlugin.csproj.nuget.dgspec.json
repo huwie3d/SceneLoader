@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Modding\\_Football Manager 2026\\SceneLoader\\MyFirstPlugin\\MyFirstPlugin.csproj",
-        "projectName": "MyFirstPlugin",
+        "projectName": "SceneLoader",
         "projectPath": "D:\\Modding\\_Football Manager 2026\\SceneLoader\\MyFirstPlugin\\MyFirstPlugin.csproj",
         "packagesPath": "C:\\Users\\Huwie\\.nuget\\packages\\",
         "outputPath": "D:\\Modding\\_Football Manager 2026\\SceneLoader\\MyFirstPlugin\\obj\\",

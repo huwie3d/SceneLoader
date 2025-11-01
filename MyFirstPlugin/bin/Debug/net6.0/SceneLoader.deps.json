@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "MyFirstPlugin/1.0.0": {
+      "SceneLoader/1.0.0": {
         "dependencies": {
           "BepInEx.PluginInfoProps": "2.1.0",
           "BepInEx.Unity.IL2CPP": "6.0.0-be.738",
@@ -16,7 +16,7 @@
           "UnityEngine.InputModule": "0.0.0.0"
         },
         "runtime": {
-          "MyFirstPlugin.dll": {}
+          "SceneLoader.dll": {}
         }
       },
       "AsmResolver/6.0.0-beta.2": {},
@@ -653,7 +653,7 @@
     }
   },
   "libraries": {
-    "MyFirstPlugin/1.0.0": {
+    "SceneLoader/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

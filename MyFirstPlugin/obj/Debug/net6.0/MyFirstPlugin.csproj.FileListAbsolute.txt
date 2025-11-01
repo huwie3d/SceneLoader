@@ -1,6 +1,3 @@
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\MyFirstPlugin.deps.json
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\MyFirstPlugin.dll
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\MyFirstPlugin.pdb
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\UnityEngine.CoreModule.dll
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\UnityEngine.dll
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\UnityEngine.InputLegacyModule.dll
@@ -13,7 +10,11 @@ D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyF
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstPlugin.AssemblyInfo.cs
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstPlugin.csproj.CoreCompileInputs.cache
 D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstP.867612DA.Up2Date
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstPlugin.dll
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\refint\MyFirstPlugin.dll
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstPlugin.pdb
-D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\ref\MyFirstPlugin.dll
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\MyFirstPlugin.sourcelink.json
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\SceneLoader.deps.json
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\SceneLoader.dll
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\bin\Debug\net6.0\SceneLoader.pdb
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\SceneLoader.dll
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\refint\SceneLoader.dll
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\SceneLoader.pdb
+D:\Modding\_Football Manager 2026\SceneLoader\MyFirstPlugin\obj\Debug\net6.0\ref\SceneLoader.dll
