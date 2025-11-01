@@ -2,6 +2,8 @@
 
 A simple **BepInEx plugin** for *Football Manager 2026* that lets you load a custom Unity scene in-game.
 
+Feel free to use, modify or whatever its a proof of concept
+
 ---
 
 ## Installation
