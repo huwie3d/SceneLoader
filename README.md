@@ -28,7 +28,7 @@ Feel free to use, modify or whatever its a proof of concept
    <FM26 folder>\BepInEx\plugins\bundles\
    ```
 
-4. With Unity create a .bundle with the scene named stadium.bundle and drop it inside:
+4. With Unity create a .bundle with the scene name stadium and rename the bundle stadium.bundle and drop it inside:
 
    ```
    <FM26 folder>\BepInEx\plugins\bundles\
